@@ -1,0 +1,283 @@
+/* Neue Helvetica W01 45 Light (22.01kb - Latin 1) */
+@font-face {
+    font-family: "HelveticaNeueW01-45Ligh";
+    src:url("//assets.macysassets.com/dyn_img/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
+    src:url("//assets.macysassets.com/dyn_img/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"), 
+	    url("//assets.macysassets.com/dyn_img/fonts/5a13f7d1-b615-418e-bc3a-525001b9a671.woff2") format("woff2"), 
+	    url("//assets.macysassets.com/dyn_img/fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"), 
+	    url("//assets.macysassets.com/dyn_img/fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"), 
+	    url("//assets.macysassets.com/dyn_img/fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+/* Neue Helvetica W01 55 Roman (22.17kb - Latin 1) */
+@font-face {
+    font-family: "HelveticaNeueW01-55Roma";
+    src:url("//assets.macysassets.com/dyn_img/fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix");
+    src:url("//assets.macysassets.com/dyn_img/fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix") format("eot"),
+	    url("//assets.macysassets.com/dyn_img/fonts/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2") format("woff2"),
+	    url("//assets.macysassets.com/dyn_img/fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff"),
+	    url("//assets.macysassets.com/dyn_img/fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf") format("truetype"),
+	    url("//assets.macysassets.com/dyn_img/fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg");
+}
+/* Neue Helvetica W01 75 Bold (22.35kb - Latin 1) */
+@font-face {
+    font-family: "HelveticaNeueW01-75Bold";
+    src:url("//assets.macysassets.com/dyn_img/fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix");
+    src:url("//assets.macysassets.com/dyn_img/fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"),
+    	url("//assets.macysassets.com/dyn_img/fonts/3b303641-706e-4221-94c4-4fb491f4f8ef.woff2") format("woff2"),
+    	url("//assets.macysassets.com/dyn_img/fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff"),
+    	url("//assets.macysassets.com/dyn_img/fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf") format("truetype"),
+    	url("//assets.macysassets.com/dyn_img/fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg");
+}
+/* Neue Helvetica W01 65 Medium (22.37kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-65Medi";
+src:url("//assets.macysassets.com/dyn_img/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix") format("eot"),
+	url("//assets.macysassets.com/dyn_img/fonts/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"),
+	url("//assets.macysassets.com/dyn_img/fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff"),
+	url("//assets.macysassets.com/dyn_img/fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf") format("truetype"),
+	url("//assets.macysassets.com/dyn_img/fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5") format("svg");
+}
+.thanksgiving_container img {
+	width: 100%;
+}
+.thanksgiving_container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.thanksgiving_container .thanksgiving_hero {
+	background-color: #78242a;
+    max-width: 1182px;
+    margin: 0 auto;
+    text-align: left;
+}
+.clearBoth {
+	clear: both;
+}
+.column, .columns {
+	padding-left: .75%;
+	padding-right: .75%;
+}
+.thanksgiving_container .thanksgiving_text {
+	text-align: center;
+}
+.thanksgiving_container a {
+	text-decoration: none !important;
+}
+.thanksgiving_container button {
+    font-family: "HelveticaNeueW01-75Bold", arial, sans-serif;
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 13px 0;
+    margin: 9px 0 49px;
+    line-height: 22px;
+    width: 233px;
+}
+.thanksgiving_container .thanksgiving_shopmartha button {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 13px 5px;
+    width: 406px;
+    margin-bottom: 74px;
+}
+.thanksgiving_container .tworows {
+	padding: 2px 0;
+}
+.thanksgiving_container .countdown {
+	font-family: "HelveticaNeueW01-65Medi", arial, sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+}
+.thanksgiving_container .thanksgiving_hero_text {
+	padding: 115px 0 0 3%;
+}
+
+.thanksgiving_container h2 {
+	font-family: "HelveticaNeueW01-45Ligh", arial, sans-serif;
+    color: #333;
+    font-size: 44px;
+    font-weight: 500;
+    margin: 67px 0 17px;
+}
+.thanksgiving_container h2 span {
+	font-family: "HelveticaNeueW01-75Bold", arial, sans-serif;
+    font-weight: 500;
+}
+.thanksgiving_container h3 {
+	font-family: "HelveticaNeueW01-55Roma", arial, sans-serif;
+    color: #000;
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 32px;
+    line-height: 35px;
+}
+
+#slideshow_container {
+	margin-bottom: 60px
+}
+.arrow {
+	display: none;
+}
+.showslide_1a .slide2,
+.showslide_1b .slide2,
+.showslide_1a .slide3,
+.showslide_1b .slide3,
+.showslide_1a .slide4,
+.showslide_1b .slide4 {
+	display: none;
+}
+.showslide_2a .slide1,
+.showslide_2b .slide1,
+.showslide_2a .slide3,
+.showslide_2b .slide3,
+.showslide_2a .slide4,
+.showslide_2b .slide4 {
+	display: none;
+}
+.showslide_3a .slide1,
+.showslide_3b .slide1,
+.showslide_3a .slide2,
+.showslide_3b .slide2,
+.showslide_3a .slide4,
+.showslide_3b .slide4 {
+	display: none;
+}
+.showslide_4a .slide1,
+.showslide_4b .slide1,
+.showslide_4a .slide2,
+.showslide_4b .slide2,
+.showslide_4a .slide3,
+.showslide_4b .slide3 {
+	display: none;
+}
+.slideA_frame, .slideB_frame {
+	width: 98%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+.slideshow_title {
+	font-family: "HelveticaNeueW01-45Ligh", arial, sans-serif;
+    color: #000;
+    font-size: 47.5px;
+    font-weight: 500;
+    padding: 39px 0 36px;
+    border-top: solid 1px #ccc;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+	.showslide_1a .desktop,
+	.showslide_1b .desktop,
+	.showslide_2a .desktop,
+	.showslide_2b .desktop,
+	.showslide_3a .desktop,
+	.showslide_3b .desktop,
+	.showslide_4a .desktop,
+	.showslide_4b .desktop {
+		display: block;
+	}
+	.arrow img {
+		margin-top: 94%;
+	}
+	.slideA_frame {
+	    right: 14px;
+	    left: 0px;
+	}
+	.slideB_frame {
+	    right: 0px;
+	    left: 10px;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.thanksgiving_container .thanksgiving_mobilePadding {
+		padding:0 3.75vw;
+	}
+	.thanksgiving_container button {
+	    font-size: 6vw;
+	    padding: 4.6vw 0;
+	    margin: 1vw 0 13vw;
+	    line-height: 6vw;
+	    width: 79vw;
+	    background-color: transparent;
+	}
+	.thanksgiving_container .thanksgiving_shopmartha button {
+		font-size: 6vw;
+		padding: 1.6vw 0;
+		margin: 1vw 0 14vw;
+		line-height: 6vw;
+		width: 79vw;
+	}
+	.thanksgiving_container button.firstbutton {
+		margin-bottom: 6.5vw !important;
+	}
+	.thanksgiving_container .tworows {
+		padding: 1vw 0;
+	}
+	.thanksgiving_container .countdown {
+	    font-size: 9.5vw;
+    line-height: 11vw;
+    text-align: center !important;
+	}
+	.thanksgiving_container .thanksgiving_hero_text {
+		padding: 3.5vw 0 5.5vw 0;
+    	text-align: center;
+
+	}
+	.thanksgiving_container h2 {
+		font-size: 11vw;
+		line-height: 12vw;
+		margin: 5.5vw 0 3.1vw;
+
+	}
+	.thanksgiving_container h3 {
+		font-size: 7.5vw;
+		line-height: 9vw;
+		margin-top: 4.5vw;
+	}
+	#slideshow_container {
+		margin-bottom: 5vw;
+	}
+	.showslide_1a .mobileA,
+	.showslide_1b .mobileB,
+	.showslide_2a .mobileA,
+	.showslide_2b .mobileB,
+	.showslide_3a .mobileA,
+	.showslide_3b .mobileB,
+	.showslide_4a .mobileA,
+	.showslide_4b .mobileB {
+		display: block;
+	}
+	.showslide_1a .slideB,
+	.showslide_2a .slideB,
+	.showslide_3a .slideB,
+	.showslide_4a .slideB {
+		display: none;
+	}
+	.showslide_1b .slideA,
+	.showslide_2b .slideA,
+	.showslide_3b .slideA,
+	.showslide_4b .slideA {
+		display: none;
+	}
+	.arrow img {
+		margin-top: 18vw;
+	}
+	.slideA_frame, .slideB_frame {
+	    right: 0px;
+    	left: 1.1%;
+	}
+	.slideshow_title {
+		font-size: 5.5vw;
+		padding: 6vw 0 3vw;
+		margin: 0 3vw;
+	}
+}

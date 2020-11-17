@@ -1,0 +1,68 @@
+{
+  "name": "@marketing-campaigns/hosting-thanksgiving",
+  "description": "hosting thanksgiving",
+  "version": "0.11.0",
+  "repository": {
+    "type": "git",
+    "url": "git@code.devops.fds.com:polaris/campaign/hosting-thanksgiving.git"
+  },
+  "config": {
+    "environment": [
+      {
+        "name": "key1",
+        "local": {
+          "mcom": "value1",
+          "bcom": "value2"
+        },
+        "prod": {
+          "mcom": "__VALUE3__",
+          "bcom": "__VALUE4__"
+        }
+      },
+      {
+        "name": "XAPI_HOST",
+        "local": {
+          "mcom": "https://mcom.xapi.com",
+          "bcom": "https://bcom.xapi.com"
+        },
+        "prod": {
+          "mcom": "__VALUE5__",
+          "bcom": "__VALUE6__"
+        }
+      }
+    ],
+    "pages": [
+      {
+        "path": "/",
+        "template": "main",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "Feast your eyes on Thanksgiving Four Step Guide with our Martha Stewart Collection at Macys.com. Let Macy’s help you make your Thanksgiving Holiday warm and special.",
+          "canonical": "https://www.macys.com/p/hosting-thanksgiving/",
+          "robots": "index, follow",
+          "title": "Thanksgiving Four Step Guide - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "hostingthanksgiving",
+          "categoryID": "standard"
+        }
+      }
+    ],
+    "macysCliVersion": "1.288.0"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
+  "main": "src/hosting-thanksgiving.js",
+  "devDependencies": {
+    "@core/dev-server": "^1.0.0",
+    "@core/lib": "^1.0.0",
+    "@core/server": "^1.0.0",
+    "lodash": "^4.17.4"
+  },
+  "dependencies": {}
+}
