@@ -3,7 +3,7 @@ import CountDown from './js/countDown';
 function showRemaining(remaining) {
   const onDate = 'Happy Thanksgiving!';
   const previousDay = '01 Day Until Thanksgiving';
-  const afterDate = 'We hope you had a happy Thanksgiving 2018';
+  const afterDate = 'We hope you had a happy Thanksgiving 2020';
   if (remaining === 0) {
     return onDate;
   } else if (remaining === 1) {
@@ -24,7 +24,7 @@ function initializeClock(daysRemaining) {
   }
 }
 
-const daysRemaining = CountDown.getCountDown('11/22/2018', true).days;
+const daysRemaining = CountDown.getCountDown('11/26/2020', true).days;
 
 initializeClock(daysRemaining);
 export default { showRemaining, initializeClock };
